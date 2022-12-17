@@ -45,10 +45,23 @@ a:hover {
   text-align: center;
   margin-top: 200px;
 }
-.search {
-display: flex;
-justify-content: center;
-align-items: center;  
+
+.searchbar{
+    padding-top: 20px;
+
+}
+#search{
+    width: 500px;
+    height: 45px;
+    border-radius: 25px;
+    border:1px solid black;
+}
+#search:hover{
+   box-shadow: 5px 5px 5px gray;
+}
+
+.buttons{
+    margin: 25px;
 }
 .btn{
     padding:10px;
