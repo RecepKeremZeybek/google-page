@@ -48,6 +48,7 @@ a:hover {
 
 .searchbar{
     padding-top: 20px;
+    position: absolute;
 
 }
 #search{
@@ -55,11 +56,14 @@ a:hover {
     height: 45px;
     border-radius: 25px;
     border:1px solid black;
+
 }
 #search:hover{
    box-shadow: 5px 5px 5px gray;
 }
-
+#scope{
+    float: left;
+}
 .buttons{
     margin: 25px;
 }
